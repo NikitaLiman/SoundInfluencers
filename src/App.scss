@@ -1,0 +1,23 @@
+.App {
+  .glass {
+    position: relative;
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__block {
+      padding: 10px 18px;
+      width: fit-content;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(3px);
+      border-radius: 8px;
+    }
+  }
+}
